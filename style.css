@@ -1,0 +1,159 @@
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#header{
+    background-color: green;
+    display: flex;
+}
+#nav{
+    display: flex;
+    gap: 10%;
+}
+.nv{
+    margin-left: 40%;
+    gap: 10%;
+
+}
+.image{
+    position: relative;
+}
+.text{
+    position: absolute;
+    top: 20%;
+}
+#first{
+    display: flex;
+    gap: 10%;
+}
+.summer{
+    display: flex;
+    border: solid 1px;
+    width: 600px;
+    /* background-color: rgb(212, 212, 196); */
+}
+.combine{
+    margin-top: 8%;
+}
+#sale{
+    display: flex;
+    margin-top: 10%;
+    /* justify-content: space-between; */
+    gap: 5%;
+}
+#plants{
+    display: flex;
+    margin-top: 5%;
+    gap: 15%;
+}
+.allplants{
+    display: flex;
+    margin-top: 3%;
+    gap: 14%;
+}
+.button{
+    border-radius: 10px;
+    background-color: rgb(2, 206, 2);
+    color: white;
+    width: 120px;
+    padding: 10px;
+}
+#featured{
+    display: flex;
+    gap: 10%;
+}
+#living{
+    background-image: url(images/background.jpg!bw700);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    margin-top: 5%;
+}
+.shop-but{
+    border-radius: 10px;
+    background-color: rgb(2, 206, 2);
+    color: white;
+    width: 120px;
+    padding: 10px;
+    margin-left: 20%;
+
+}
+.amazing-spring{
+    margin-top: 8%;
+}
+.spring{
+    display: flex;
+    gap: 10%;
+}
+#email{
+    padding: 12px;
+    width: 110%;
+
+}
+#foot-but{
+    background-color: rgb(4, 189, 4);
+    color: white;
+    padding: 15px;
+    width: 120%;
+    margin-top: 2%;
+}
+#footer{
+    display: flex;
+    justify-content: space-around;
+}
+#cactus{
+    display: flex;
+    margin-top: 5%;
+
+}
+#blog{
+    display: flex;
+    gap: 15%;
+}
+#img-clients{
+    display: flex;
+    justify-content: space-around;
+}
+#copyright{
+    margin-left: 40%;
+}
+
+
+
+@media only screen and (min-width: 280px)and (max-width: 1280px){
+    #header{
+        background-color: green;
+        display: flex;
+    }
+    #nav{
+        display: flex;
+        gap: 10%;
+    }
+    .nv{
+        margin-left: 40%;
+        gap: 10%;
+    
+    }
+    .image{
+        position: relative;
+    }
+    .text{
+        position: absolute;
+        top: 20%;
+    }
+    #first{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10%;
+    }
+    #part1{
+        display: flex;
+    }
+    .combine{
+        margin-top: 8%;
+    }
+    
+
+
+}
