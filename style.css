@@ -1,6 +1,7 @@
 body{
     margin-left: 10%;
     margin-right: 10%;
+    background-color: beige;
 }
 
 #header{
@@ -9,7 +10,7 @@ body{
 }
 #nav{
     display: flex;
-    gap: 10%;
+    gap: 5%;
 }
 .nv{
     margin-left: 40%;
@@ -29,9 +30,10 @@ body{
 }
 .summer{
     display: flex;
-    border: solid 1px;
-    width: 600px;
-    /* background-color: rgb(212, 212, 196); */
+    /* border: solid 1px; */
+    /* border-color: ; */
+    /* width: 500px; */
+    background-color: rgb(236, 236, 203);
 }
 .combine{
     margin-top: 8%;
@@ -39,7 +41,6 @@ body{
 #sale{
     display: flex;
     margin-top: 10%;
-    /* justify-content: space-between; */
     gap: 5%;
 }
 #plants{
@@ -114,6 +115,11 @@ body{
 #img-clients{
     display: flex;
     justify-content: space-around;
+    border-radius: 20px;
+}
+.testimonials{
+    border-radius: 40px;
+    width: 130px;
 }
 #copyright{
     margin-left: 40%;
@@ -147,13 +153,109 @@ body{
         flex-wrap: wrap;
         gap: 10%;
     }
-    #part1{
+    .summer{
         display: flex;
+        border: solid 1px;
+        width: 600px;
     }
     .combine{
         margin-top: 8%;
     }
+    #sale{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10%;
+        /* gap: 5%; */
+    }
     
+    #plants{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 5%;
+        /* gap: 15%; */
+    }
+    .allplants{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 3%;
+        /* gap: 14%; */
+    }
+    .button{
+        border-radius: 10px;
+        background-color: rgb(2, 206, 2);
+        color: white;
+        width: 120px;
+        padding: 10px;
+    }
+    #featured{
+        display: flex;
+        flex-wrap: wrap;
+        /* gap: 10%; */
+    }
+    #living{
+        background-image: url(images/background.jpg!bw700);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 95%;
+        margin-top: 5%;
+    }
+    .shop-but{
+        border-radius: 10px;
+        background-color: rgb(2, 206, 2);
+        color: white;
+        width: 120px;
+        padding: 10px;
+        margin-left: 20%;
+    
+    }
+    .amazing-spring{
+        margin-top: 8%;
+    }
+    .spring{
+        display: flex;
+        flex-wrap: wrap;
+        /* gap: 10%; */
+    }
+    #email{
+        padding: 12px;
+        width: 110%;
+    
+    }
+    #foot-but{
+        background-color: rgb(4, 189, 4);
+        color: white;
+        padding: 15px;
+        width: 120%;
+        margin-top: 2%;
+    }
+    #footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #cactus{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 5%;
+    
+    }
+    #blog{
+        display: flex;
+        flex-wrap: wrap;
+        /* gap: 15%; */
+    }
+    #img-clients{
+        display: flex;
+        justify-content: space-around;
+        border-radius: 20px;
+    }
+    .testimonials{
+        border-radius: 40px;
+        width: 120px;
+    }
+    #copyright{
+        margin-left: 40%;
+    }
 
 
 }
